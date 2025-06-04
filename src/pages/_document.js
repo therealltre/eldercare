@@ -49,11 +49,11 @@ export default class MyDocument extends Document {
 
           <meta
             name="description"
-            content="Vertria AI AI Innovative Technology website."
+            content="Place Of Joy Home Care Agency website."
           />
           <meta
             name="keywords"
-            content="vertria, Vertria, AI, Innovative, Technology, website"
+            content="home-care, homecare, elderc-are, eldercare, placeofjoy, website"
           />
           <meta name="OrbliV8" content="" />
         </Head>

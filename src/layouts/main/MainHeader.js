@@ -81,7 +81,7 @@ export default function MainHeader() {
                   >
                     <Image
                       src="/assets/place-of-joy.svg"
-                      alt="vertria Logo"
+                      alt="place of Logo"
                       width={50}
                       height={50}
                       priority
@@ -101,7 +101,7 @@ export default function MainHeader() {
                   >
                     <Image
                       src="/assets/place-of-joy.svg"
-                      alt="vertria Logo"
+                      alt="place of joy Logo"
                       width={80}
                       height={80}
                       priority
@@ -202,7 +202,7 @@ export default function MainHeader() {
                 <Box component="a">
                   <Image
                     src="/assets/place-of-joy.svg"
-                    alt="vertria Logo"
+                    alt="place of joy Logo"
                     width={80}
                     height={80}
                     priority
