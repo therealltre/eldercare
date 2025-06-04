@@ -21,7 +21,7 @@ const RootStyle = styled(m.div)(({ theme }) => ({
   alignItems: "center",
 
   zIndex: 1,
-  backgroundImage: `url(/assets/images/contact/hero.png)`,
+  backgroundImage: `url(/assets/home-hero-img.jpg)`,
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
   backgroundPosition: "center",
@@ -33,7 +33,7 @@ const RootStyle = styled(m.div)(({ theme }) => ({
     position: "relative",
     display: "flex",
     alignItems: "center",
-    backgroundImage: `url(/assets/images/contact/hero.png)`,
+    backgroundImage: `url(/assets/home-hero-img.jpg)`,
     backgroundSize: "fill",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
