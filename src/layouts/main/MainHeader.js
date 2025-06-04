@@ -128,35 +128,69 @@ export default function MainHeader() {
                 /> */}
               {/* </Box> */}
 
-              <Box>
-                <Typography>Have any questions?</Typography>
-                <Stack direction="row" gap={2}>
-                  <Typography>Call </Typography>
-                  <Stack direction="row" alignItems="center" spacing={1}>
-                    <Icon
-                      icon="eva:phone-fill"
-                      width={20}
-                      style={{ color: "#fff" }}
-                    />
-                    <NextLink href="tel:+15713599918" passHref legacyBehavior>
-                      <MuiLink
-                        underline="none"
-                        sx={{
-                          fontSize: 13,
-                          color: "#fff", // <- Direct white color
-                          typography: "body2",
-                          "&:hover": {
-                            color: "#B1D7D7",
-                            textDecoration: "underline"
-                          }
-                        }}
-                      >
-                        +1 (571)-359-9918
-                      </MuiLink>
-                    </NextLink>
+              {isOffset ? (
+                <Box>
+                  <Typography sx={{ color: "#060606" }}>
+                    Have any questions?
+                  </Typography>
+                  <Stack direction="row" gap={2}>
+                    <Typography sx={{ color: "#060606" }}>Call </Typography>
+                    <Stack direction="row" alignItems="center" spacing={1}>
+                      <Icon
+                        icon="eva:phone-fill"
+                        width={20}
+                        style={{ color: "#060606" }}
+                      />
+                      <NextLink href="tel:+15713599918" passHref legacyBehavior>
+                        <MuiLink
+                          underline="none"
+                          sx={{
+                            fontSize: 13,
+                            color: "#060606", // <- Direct white color
+                            typography: "body2",
+                            "&:hover": {
+                              color: "#B1D7D7",
+                              textDecoration: "underline"
+                            }
+                          }}
+                        >
+                          +1 (571)-359-9918
+                        </MuiLink>
+                      </NextLink>
+                    </Stack>
                   </Stack>
-                </Stack>
-              </Box>
+                </Box>
+              ) : (
+                <Box>
+                  <Typography>Have any questions?</Typography>
+                  <Stack direction="row" gap={2}>
+                    <Typography>Call </Typography>
+                    <Stack direction="row" alignItems="center" spacing={1}>
+                      <Icon
+                        icon="eva:phone-fill"
+                        width={20}
+                        style={{ color: "#fff" }}
+                      />
+                      <NextLink href="tel:+15713599918" passHref legacyBehavior>
+                        <MuiLink
+                          underline="none"
+                          sx={{
+                            fontSize: 13,
+                            color: "#fff", // <- Direct white color
+                            typography: "body2",
+                            "&:hover": {
+                              color: "#B1D7D7",
+                              textDecoration: "underline"
+                            }
+                          }}
+                        >
+                          +1 (571)-359-9918
+                        </MuiLink>
+                      </NextLink>
+                    </Stack>
+                  </Stack>
+                </Box>
+              )}
             </Box>
           ) : (
             <>

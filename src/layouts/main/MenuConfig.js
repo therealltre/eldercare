@@ -34,7 +34,7 @@ const menuConfig = {
       icon: (
         <Iconify icon={"fluent:people-team-toolbox-20-filled"} {...ICON_SIZE} />
       ),
-      path: PATH_PAGE.team
+      path: PATH_PAGE.community
     },
     {
       title: "CONTACT US",

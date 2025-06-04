@@ -275,6 +275,7 @@ function MenuDesktopItem({ item, isHome, isOpen, isOffset, onOpen, onClose }) {
       <LinkStyle
         sx={{
           ...(isHome && { color: "#fff" }),
+          ...(!isHome && { color: "#fff" }),
           ...(isOffset && { color: "black" }),
           ...(isActive(path) && {
             color: "primary.dark" //active header color

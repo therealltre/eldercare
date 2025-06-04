@@ -5,7 +5,7 @@ import { Component } from "react";
 export const PATH_PAGE = {
   comingSoon: "/coming-soon",
   maintenance: "/maintenance",
-  // about: "/about-us",
+  about: "/about-us",
   contact: "/contact-us",
   community: "#",
   learning: "#",

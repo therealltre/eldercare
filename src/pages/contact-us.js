@@ -1,5 +1,3 @@
-import { m } from "framer-motion";
-
 // @mui
 import { styled } from "@mui/material/styles";
 import { Grid, Container, Typography, Stack } from "@mui/material";
@@ -9,7 +7,7 @@ import Layout from "../layouts";
 import Page from "../components/Page";
 // sections
 import { ContactHero, ContactForm } from "../sections/contact";
-import { varFade } from "@/components/animate";
+
 
 // ----------------------------------------------------------------------
 
